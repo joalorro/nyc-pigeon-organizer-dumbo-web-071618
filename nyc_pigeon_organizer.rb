@@ -58,7 +58,7 @@ def fill_in_pigeon_info(old_data,new_data)
   new_data.each do |pigeon, data|
     data.each do |category,info|
       
-      #iterating through the old data
+      #iterating through the old data and filling in the appropriate information for each pigeon
       old_data.each do |attribute,specs|
         specs.each do |topic,little_dudes|
           little_dudes.each do |name|
